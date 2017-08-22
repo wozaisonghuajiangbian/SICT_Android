@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\LcAndroidWorkSpaces\SICT_Android\app\src\main\jniLibs"/></dataSet><dataSet config="baidu"><source path="E:\LcAndroidWorkSpaces\SICT_Android\app\src\baidu\jniLibs"/></dataSet><dataSet config="release"><source path="E:\LcAndroidWorkSpaces\SICT_Android\app\src\release\jniLibs"/></dataSet><dataSet config="baiduRelease"><source path="E:\LcAndroidWorkSpaces\SICT_Android\app\src\baiduRelease\jniLibs"/></dataSet></merger>

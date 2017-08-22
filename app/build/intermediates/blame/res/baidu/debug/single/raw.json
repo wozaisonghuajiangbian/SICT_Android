@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\LcAndroidWorkSpaces\\SICT_Android\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\raw\\excel.xls",
+        "source": "E:\\LcAndroidWorkSpaces\\SICT_Android\\app\\src\\main\\res\\raw\\excel.xls"
+    },
+    {
+        "merged": "E:\\LcAndroidWorkSpaces\\SICT_Android\\app\\build\\intermediates\\res\\merged\\baidu\\debug\\raw\\beep.ogg",
+        "source": "E:\\LcAndroidWorkSpaces\\SICT_Android\\app\\src\\main\\res\\raw\\beep.ogg"
+    }
+]

@@ -1,0 +1,4 @@
+#Mon Aug 21 10:57:29 GMT+08:00 2017
+base.0=E\:\\LcAndroidWorkSpaces\\SICT_Android\\app\\build\\intermediates\\transforms\\dex\\baidu\\debug\\folders\\1000\\5\\slice_2
+renamed.0=classes.dex
+file.0=E\:\\LcAndroidWorkSpaces\\SICT_Android\\app\\build\\intermediates\\transforms\\dex\\baidu\\debug\\folders\\1000\\5\\slice_2\\classes.dex

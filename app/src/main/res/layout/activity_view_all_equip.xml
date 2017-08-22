@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:background="@color/white">
+    <com.dtr.sict.views.CustomTitle
+        android:id="@+id/my_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.dtr.sict.views.CustomTitle>
+
+    <LinearLayout
+        android:id="@+id/equipment_view"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#0f7bbe">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="设备编号"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="使用者"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="房间号"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="所属部门"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:gravity="center"
+            android:text="设备类型"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll_equip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="@color/white">
+        <LinearLayout
+            android:id="@+id/scroll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

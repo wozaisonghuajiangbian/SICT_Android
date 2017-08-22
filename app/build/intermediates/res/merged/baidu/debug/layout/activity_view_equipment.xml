@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <com.dtr.sict.views.CustomTitle
+        android:id="@+id/my_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.dtr.sict.views.CustomTitle>
+
+    <TextView
+        android:layout_below="@+id/my_title_bar"
+        android:lineSpacingMultiplier="1.5"
+        android:id="@+id/equipment_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left|top"
+        android:padding="10dp"
+        android:background="#00000000"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/delete_info"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:text="删除设备信息"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:layout_marginBottom="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+        <!--android:layout_marginBottom="300dp"-->
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lib-zxing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- 对话框所需要的字符串资源-->
+    <string name="cover_dialog_message">该资产信息已存在，是否将其覆盖？</string>
+    <string name="cover_dialog_positive_button">确定</string>
+    <string name="cover_dialog_negative_button">取消</string>
+    <string name="cover_dialog_title">覆盖提示</string>
+</resources>

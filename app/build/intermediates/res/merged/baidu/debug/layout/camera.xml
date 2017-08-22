@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_zxing_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <com.uuzuche.lib_zxing.view.CustomTitle
+        android:id="@+id/my_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.uuzuche.lib_zxing.view.CustomTitle>
+
+</RelativeLayout>

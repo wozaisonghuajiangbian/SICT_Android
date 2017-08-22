@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\LcAndroidWorkSpaces\SICT_Android\app\src\main\shaders"/></dataSet><dataSet config="baidu"><source path="E:\LcAndroidWorkSpaces\SICT_Android\app\src\baidu\shaders"/></dataSet><dataSet config="debug"><source path="E:\LcAndroidWorkSpaces\SICT_Android\app\src\debug\shaders"/></dataSet><dataSet config="baiduDebug"><source path="E:\LcAndroidWorkSpaces\SICT_Android\app\src\baiduDebug\shaders"/></dataSet></merger>

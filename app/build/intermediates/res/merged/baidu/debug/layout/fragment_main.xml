@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+     >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:src="@drawable/logo" />
+
+        <LinearLayout style="@style/top_layout"
+            android:layout_below="@+id/logo"
+            android:id="@+id/top_layout"
+            android:clickable="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <TextView style="@style/usertext" android:text="扫描二维码" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+       <LinearLayout style="@style/mid_layout"
+           android:layout_below="@+id/top_layout"
+           android:id="@+id/view_all_equip"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginBottom="15dp">
+            <TextView style="@style/usertext" android:text="查看所有信息" />
+          	<ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        <LinearLayout style="@style/mid_layout"
+            android:id="@+id/export_excel"
+            android:layout_below="@+id/view_all_equip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp">
+            <TextView style="@style/usertext" android:text="导出Excel表格" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            style="@style/bottom_layout"
+            android:id="@+id/empty_data"
+            android:layout_below="@+id/export_excel"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <TextView style="@style/usertext" android:text="清空数据" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+</RelativeLayout>

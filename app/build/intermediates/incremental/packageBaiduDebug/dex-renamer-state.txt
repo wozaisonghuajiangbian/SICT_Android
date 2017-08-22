@@ -1,0 +1,7 @@
+#Mon Aug 21 16:41:58 GMT+08:00 2017
+base.0=E\:\\LcAndroidWorkSpaces\\SICT_Android\\app\\build\\intermediates\\transforms\\dex\\baidu\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7f2e167a768d3d8b622f54995902e81e5cdfb3eb
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\LcAndroidWorkSpaces\\SICT_Android\\app\\build\\intermediates\\transforms\\dex\\baidu\\debug\\folders\\1000\\10000\\instant-run_1ab473a1daf101884b22b3dd8ebe583fc842c9e5\\classes.dex
+base.1=E\:\\LcAndroidWorkSpaces\\SICT_Android\\app\\build\\intermediates\\transforms\\dex\\baidu\\debug\\folders\\1000\\10000\\instant-run_1ab473a1daf101884b22b3dd8ebe583fc842c9e5
+file.0=E\:\\LcAndroidWorkSpaces\\SICT_Android\\app\\build\\intermediates\\transforms\\dex\\baidu\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7f2e167a768d3d8b622f54995902e81e5cdfb3eb\\classes.dex
