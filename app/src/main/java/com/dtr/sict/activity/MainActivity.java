@@ -28,6 +28,7 @@ import java.io.File;
 public class MainActivity extends Activity {
 
     private static String TAG = "MainActivity";
+    private static String test;
     private static String xmlPath;
     private int CREATE_ORDER = 0;
     private static File appRoot;
